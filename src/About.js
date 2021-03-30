@@ -4,7 +4,7 @@ import './About.css'
 function About() {
     return (
         <section className='container'
-                 style={{backgroundImage: "url(/about-background.jpg)"}}>
+                 style={{backgroundImage: "url(./about-background.jpg)"}}>
             <Left/>
             <Right/>
         </section>
@@ -15,7 +15,7 @@ const Left = () => {
     return (
         <div className='about-header'>
             <div className='float-img'
-                 style={{backgroundImage: "url(/me.jpeg)"}}>
+                 style={{backgroundImage: "url(./me.jpeg)"}}>
             </div>
             <h1 className='about-title'>echo $ABOUT</h1>
         </div>);

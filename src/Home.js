@@ -5,7 +5,7 @@ import './Home.scss'
 function Greetings(){
     return (<section
         className='foo-home'
-        style={{backgroundImage: "url(/background.jpg)"}}>
+        style={{backgroundImage: "url(./background.jpg)"}}>
         <Names/>
     </section>);
 }

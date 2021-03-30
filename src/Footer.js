@@ -3,25 +3,25 @@ import './Footer.css'
 
 var values = [
     {
-        icon: "/icons/email.svg",
+        icon: "./icons/email.svg",
         name: "Email",
         link: "mailto:shubhkarman.sohi@usask.ca",
         colour: "#4285F4"
     },
     {
-        icon: "/icons/resume.svg",
+        icon: "./icons/resume.svg",
         name: "Resume",
-        link: "/icons/resume.pdf",
+        link: "./icons/resume.pdf",
         colour: "#DB4437"
     },
     {
-        icon: "/icons/linkedin.svg",
+        icon: "./icons/linkedin.svg",
         name: "LinkedIn",
         link: "https://www.linkedin.com/in/shubhsohi/",
         colour: "#F4B400"
     },
     {
-        icon: "/icons/github.svg",
+        icon: "./icons/github.svg",
         name: "GitHub",
         link: "https://github.com/shubh-sohi",
         colour: "#0F9D58"
